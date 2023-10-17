@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,23 +13,10 @@
     <title>Happy Birth Day</title>
     <link rel="stylesheet" href="https://dekatutorial.github.io/spl/s.css" />
     <script src="https://dekatutorial.github.io/spl/s.js"></script>
-    <style>
-      .open {
-        cursor: pointer;
-      }
-
-      .card {
-        transition: transform 0.3s ease-in-out;
-      }
-
-      .card:hover {
-        transform: scale(1.1);
-      }
-    </style>
   </head>
   <body class="body">
     <div class="open" onclick="bukaSurat()">
-      <div class="card" onmouseenter="zoomIn(this)" onmouseleave="zoomOut(this)"> <h2>Ada pesan buat kamu</h2>
+      <div class="card"> <h2>Ada pesan buat kamu</h2>
         <img class="mail" src="https://dekatutorial.github.io/spesial_mail.png" alt="" srcset="" />
         <h3>Tekan untuk membuka</h3>
       </div>
@@ -38,9 +24,11 @@
 
     <script>
       function bukaSurat() {
-        // Arahkan pengguna ke halaman lain
-        window.location.href = 'isi.html';
+        // Tambahkan logika di sini untuk membuka surat
+        // Anda dapat menampilkan/menyembunyikan elemen atau memuat konten secara dinamis
+        alert('Surat terbuka!');
       }
     </script>
+
   </body>
 </html>
